@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7D193F1D0911850043683D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D193E1D0911850043683D /* MasterViewController.m */; };
+		4D88AD4A1D078D7E00C7BC99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD491D078D7E00C7BC99 /* main.m */; };
+		4D88AD4D1D078D7E00C7BC99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD4C1D078D7E00C7BC99 /* AppDelegate.m */; };
+		4D88AD501D078D7E00C7BC99 /* TekSystemTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD4E1D078D7E00C7BC99 /* TekSystemTest.xcdatamodeld */; };
+		4D88AD561D078D7E00C7BC99 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD551D078D7E00C7BC99 /* DetailViewController.m */; };
+		4D88AD591D078D7E00C7BC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D88AD571D078D7E00C7BC99 /* Main.storyboard */; };
+		4D88AD5B1D078D7E00C7BC99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88AD5A1D078D7E00C7BC99 /* Images.xcassets */; };
+		4D88AD5E1D078D7E00C7BC99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D88AD5C1D078D7E00C7BC99 /* LaunchScreen.xib */; };
+		4D88AD6A1D078D7E00C7BC99 /* TekSystemTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD691D078D7E00C7BC99 /* TekSystemTestTests.m */; };
+		4D88AD781D0790CE00C7BC99 /* ParserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD771D0790CE00C7BC99 /* ParserDataManager.m */; };
+		4D88AD7B1D07A1F200C7BC99 /* ParserEntryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD7A1D07A1F200C7BC99 /* ParserEntryViewModel.m */; };
+		4DA2CD771D088DE600C40FBA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2CD761D088DE600C40FBA /* HomeViewController.m */; };
+		4DE3E3FA1D09DCB5009BFC83 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3E3F91D09DCB5009BFC83 /* Reachability.m */; };
+		4DE3E3FD1D0A2A45009BFC83 /* ParserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3E3FC1D0A2A45009BFC83 /* ParserSettings.m */; };
+		4DFD07AE1D0A42DE00BC91D4 /* ParserDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD07AD1D0A42DE00BC91D4 /* ParserDetailModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D88AD641D078D7E00C7BC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D88AD3C1D078D7E00C7BC99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D88AD431D078D7E00C7BC99;
+			remoteInfo = TekSystemTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7D193E1D0911850043683D /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4D88AD441D078D7E00C7BC99 /* TekSystemTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekSystemTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D88AD481D078D7E00C7BC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D88AD491D078D7E00C7BC99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D88AD4B1D078D7E00C7BC99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D88AD4C1D078D7E00C7BC99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D88AD4F1D078D7E00C7BC99 /* TekSystemTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TekSystemTest.xcdatamodel; sourceTree = "<group>"; };
+		4D88AD511D078D7E00C7BC99 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4D88AD541D078D7E00C7BC99 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4D88AD551D078D7E00C7BC99 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4D88AD581D078D7E00C7BC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D88AD5A1D078D7E00C7BC99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D88AD5D1D078D7E00C7BC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D88AD631D078D7E00C7BC99 /* TekSystemTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekSystemTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D88AD681D078D7E00C7BC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D88AD691D078D7E00C7BC99 /* TekSystemTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekSystemTestTests.m; sourceTree = "<group>"; };
+		4D88AD761D0790CE00C7BC99 /* ParserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParserDataManager.h; path = Model/ParserDataManager.h; sourceTree = "<group>"; };
+		4D88AD771D0790CE00C7BC99 /* ParserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParserDataManager.m; path = Model/ParserDataManager.m; sourceTree = "<group>"; };
+		4D88AD791D07A1F200C7BC99 /* ParserEntryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParserEntryViewModel.h; path = Model/ViewModel/ParserEntryViewModel.h; sourceTree = "<group>"; };
+		4D88AD7A1D07A1F200C7BC99 /* ParserEntryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParserEntryViewModel.m; path = Model/ViewModel/ParserEntryViewModel.m; sourceTree = "<group>"; };
+		4DA2CD751D088DE600C40FBA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4DA2CD761D088DE600C40FBA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4DE3E3F81D09DCB5009BFC83 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4DE3E3F91D09DCB5009BFC83 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4DE3E3FB1D0A2A45009BFC83 /* ParserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserSettings.h; sourceTree = "<group>"; };
+		4DE3E3FC1D0A2A45009BFC83 /* ParserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserSettings.m; sourceTree = "<group>"; };
+		4DFD07AA1D0A3B2600BC91D4 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		4DFD07AC1D0A42DE00BC91D4 /* ParserDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserDetailModel.h; sourceTree = "<group>"; };
+		4DFD07AD1D0A42DE00BC91D4 /* ParserDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserDetailModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D88AD411D078D7E00C7BC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88AD601D078D7E00C7BC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D88AD3B1D078D7E00C7BC99 = {
+			isa = PBXGroup;
+			children = (
+				4D88AD461D078D7E00C7BC99 /* TekSystemTest */,
+				4D88AD661D078D7E00C7BC99 /* TekSystemTestTests */,
+				4D88AD451D078D7E00C7BC99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D88AD451D078D7E00C7BC99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D88AD441D078D7E00C7BC99 /* TekSystemTest.app */,
+				4D88AD631D078D7E00C7BC99 /* TekSystemTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D88AD461D078D7E00C7BC99 /* TekSystemTest */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3E3F71D09DC2F009BFC83 /* Utility */,
+				4D88AD741D07908400C7BC99 /* Model */,
+				4D88AD731D07907000C7BC99 /* ViewController */,
+				4D88AD4B1D078D7E00C7BC99 /* AppDelegate.h */,
+				4D88AD4C1D078D7E00C7BC99 /* AppDelegate.m */,
+				4D88AD571D078D7E00C7BC99 /* Main.storyboard */,
+				4D88AD5A1D078D7E00C7BC99 /* Images.xcassets */,
+				4D88AD5C1D078D7E00C7BC99 /* LaunchScreen.xib */,
+				4D88AD4E1D078D7E00C7BC99 /* TekSystemTest.xcdatamodeld */,
+				4D88AD471D078D7E00C7BC99 /* Supporting Files */,
+			);
+			path = TekSystemTest;
+			sourceTree = "<group>";
+		};
+		4D88AD471D078D7E00C7BC99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D88AD481D078D7E00C7BC99 /* Info.plist */,
+				4D88AD491D078D7E00C7BC99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D88AD661D078D7E00C7BC99 /* TekSystemTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D88AD691D078D7E00C7BC99 /* TekSystemTestTests.m */,
+				4D88AD671D078D7E00C7BC99 /* Supporting Files */,
+				4DFD07AA1D0A3B2600BC91D4 /* BridgingHeader.h */,
+			);
+			path = TekSystemTestTests;
+			sourceTree = "<group>";
+		};
+		4D88AD671D078D7E00C7BC99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D88AD681D078D7E00C7BC99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D88AD731D07907000C7BC99 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D193E1D0911850043683D /* MasterViewController.m */,
+				4D88AD511D078D7E00C7BC99 /* MasterViewController.h */,
+				4D88AD541D078D7E00C7BC99 /* DetailViewController.h */,
+				4D88AD551D078D7E00C7BC99 /* DetailViewController.m */,
+				4DA2CD751D088DE600C40FBA /* HomeViewController.h */,
+				4DA2CD761D088DE600C40FBA /* HomeViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4D88AD741D07908400C7BC99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD07AB1D0A42BE00BC91D4 /* Model */,
+				4D88AD751D07909C00C7BC99 /* ViewModel */,
+				4D88AD761D0790CE00C7BC99 /* ParserDataManager.h */,
+				4D88AD771D0790CE00C7BC99 /* ParserDataManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4D88AD751D07909C00C7BC99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D88AD791D07A1F200C7BC99 /* ParserEntryViewModel.h */,
+				4D88AD7A1D07A1F200C7BC99 /* ParserEntryViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		4DE3E3F71D09DC2F009BFC83 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3E3F81D09DCB5009BFC83 /* Reachability.h */,
+				4DE3E3F91D09DCB5009BFC83 /* Reachability.m */,
+				4DE3E3FB1D0A2A45009BFC83 /* ParserSettings.h */,
+				4DE3E3FC1D0A2A45009BFC83 /* ParserSettings.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		4DFD07AB1D0A42BE00BC91D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD07AC1D0A42DE00BC91D4 /* ParserDetailModel.h */,
+				4DFD07AD1D0A42DE00BC91D4 /* ParserDetailModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D88AD431D078D7E00C7BC99 /* TekSystemTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D88AD6D1D078D7E00C7BC99 /* Build configuration list for PBXNativeTarget "TekSystemTest" */;
+			buildPhases = (
+				4D88AD401D078D7E00C7BC99 /* Sources */,
+				4D88AD411D078D7E00C7BC99 /* Frameworks */,
+				4D88AD421D078D7E00C7BC99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekSystemTest;
+			productName = TekSystemTest;
+			productReference = 4D88AD441D078D7E00C7BC99 /* TekSystemTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D88AD621D078D7E00C7BC99 /* TekSystemTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D88AD701D078D7E00C7BC99 /* Build configuration list for PBXNativeTarget "TekSystemTestTests" */;
+			buildPhases = (
+				4D88AD5F1D078D7E00C7BC99 /* Sources */,
+				4D88AD601D078D7E00C7BC99 /* Frameworks */,
+				4D88AD611D078D7E00C7BC99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D88AD651D078D7E00C7BC99 /* PBXTargetDependency */,
+			);
+			name = TekSystemTestTests;
+			productName = TekSystemTestTests;
+			productReference = 4D88AD631D078D7E00C7BC99 /* TekSystemTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D88AD3C1D078D7E00C7BC99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Balabaskaran;
+				TargetAttributes = {
+					4D88AD431D078D7E00C7BC99 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4D88AD621D078D7E00C7BC99 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4D88AD431D078D7E00C7BC99;
+					};
+				};
+			};
+			buildConfigurationList = 4D88AD3F1D078D7E00C7BC99 /* Build configuration list for PBXProject "TekSystemTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D88AD3B1D078D7E00C7BC99;
+			productRefGroup = 4D88AD451D078D7E00C7BC99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D88AD431D078D7E00C7BC99 /* TekSystemTest */,
+				4D88AD621D078D7E00C7BC99 /* TekSystemTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D88AD421D078D7E00C7BC99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88AD591D078D7E00C7BC99 /* Main.storyboard in Resources */,
+				4D88AD5E1D078D7E00C7BC99 /* LaunchScreen.xib in Resources */,
+				4D88AD5B1D078D7E00C7BC99 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88AD611D078D7E00C7BC99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D88AD401D078D7E00C7BC99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88AD781D0790CE00C7BC99 /* ParserDataManager.m in Sources */,
+				4D88AD561D078D7E00C7BC99 /* DetailViewController.m in Sources */,
+				4D88AD501D078D7E00C7BC99 /* TekSystemTest.xcdatamodeld in Sources */,
+				4D88AD7B1D07A1F200C7BC99 /* ParserEntryViewModel.m in Sources */,
+				4DFD07AE1D0A42DE00BC91D4 /* ParserDetailModel.m in Sources */,
+				4D7D193F1D0911850043683D /* MasterViewController.m in Sources */,
+				4DE3E3FD1D0A2A45009BFC83 /* ParserSettings.m in Sources */,
+				4D88AD4D1D078D7E00C7BC99 /* AppDelegate.m in Sources */,
+				4D88AD4A1D078D7E00C7BC99 /* main.m in Sources */,
+				4DE3E3FA1D09DCB5009BFC83 /* Reachability.m in Sources */,
+				4DA2CD771D088DE600C40FBA /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88AD5F1D078D7E00C7BC99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88AD6A1D078D7E00C7BC99 /* TekSystemTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D88AD651D078D7E00C7BC99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D88AD431D078D7E00C7BC99 /* TekSystemTest */;
+			targetProxy = 4D88AD641D078D7E00C7BC99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D88AD571D078D7E00C7BC99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D88AD581D078D7E00C7BC99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D88AD5C1D078D7E00C7BC99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D88AD5D1D078D7E00C7BC99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D88AD6B1D078D7E00C7BC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D88AD6C1D078D7E00C7BC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D88AD6E1D078D7E00C7BC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TekSystemTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D88AD6F1D078D7E00C7BC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TekSystemTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D88AD711D078D7E00C7BC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TekSystemTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekSystemTest.app/TekSystemTest";
+			};
+			name = Debug;
+		};
+		4D88AD721D078D7E00C7BC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TekSystemTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekSystemTest.app/TekSystemTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D88AD3F1D078D7E00C7BC99 /* Build configuration list for PBXProject "TekSystemTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D88AD6B1D078D7E00C7BC99 /* Debug */,
+				4D88AD6C1D078D7E00C7BC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D88AD6D1D078D7E00C7BC99 /* Build configuration list for PBXNativeTarget "TekSystemTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D88AD6E1D078D7E00C7BC99 /* Debug */,
+				4D88AD6F1D078D7E00C7BC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D88AD701D078D7E00C7BC99 /* Build configuration list for PBXNativeTarget "TekSystemTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D88AD711D078D7E00C7BC99 /* Debug */,
+				4D88AD721D078D7E00C7BC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D88AD4E1D078D7E00C7BC99 /* TekSystemTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D88AD4F1D078D7E00C7BC99 /* TekSystemTest.xcdatamodel */,
+			);
+			currentVersion = 4D88AD4F1D078D7E00C7BC99 /* TekSystemTest.xcdatamodel */;
+			path = TekSystemTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D88AD3C1D078D7E00C7BC99 /* Project object */;
+}
