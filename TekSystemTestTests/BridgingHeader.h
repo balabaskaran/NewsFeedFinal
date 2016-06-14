@@ -11,5 +11,9 @@
 
 #import "ParserEntryViewModel.h"
 #import "ParserDataManager.h"
+#import "ParserUtilities.h"
+#import "ParserSettings.h"
+#import "ParserDetailModel.h"
+
 
 #endif
