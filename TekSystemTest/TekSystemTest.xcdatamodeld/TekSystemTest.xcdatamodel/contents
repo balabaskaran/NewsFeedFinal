@@ -6,9 +6,10 @@
         <attribute name="title" optional="YES" attributeType="String">
             <userInfo/>
         </attribute>
+        <attribute name="url" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <userInfo/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="90"/>
+        <element name="Event" positionX="261" positionY="189" width="128" height="105"/>
     </elements>
 </model>

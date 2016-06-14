@@ -7,9 +7,11 @@
 //
 
 #import "DetailViewController.h"
+#import "ParserUtilities.h"
 
 @interface DetailViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *newsDetailsTextView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -31,6 +33,11 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem newsTitle];
         self.newsDetailsTextView.text = [self.detailItem newsDescription];
+        self.imageView.image = [UIImage imageNamed:@"news"];
+        if ([ParserUtilities getImageFromUrl:[self.detailItem imageUrl]] != nil) {
+            [self.imageView setImage:[ParserUtilities getImageFromUrl:[self.detailItem imageUrl]]];
+        }
+        
     }
 }
 

@@ -10,10 +10,13 @@
 #import "DetailViewController.h"
 #import "ParserSettings.h"
 #import "ParserDetailModel.h"
+#import "ParserUtilities.h"
 
  NSString *kTitleKey = @"title";
  NSString *kLinkKey = @"link";
 NSString *kDescriptionKey = @"descriptions";
+NSString *kUrlKey = @"url";
+
 @interface MasterViewController ()
 
 @end
@@ -26,13 +29,6 @@ NSString *kDescriptionKey = @"descriptions";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-   // self.navigationItem.leftBarButtonItem = self.editButtonItem;
-    
-    
-
-//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(insertNewObject:)];
-//    self.navigationItem.leftBarButtonItem = addButton;
     
     ParserDataManager *dataManager = [ParserDataManager sharedManager];
     [dataManager setDataManagerDelegate:self];
@@ -72,7 +68,7 @@ NSString *kDescriptionKey = @"descriptions";
         [newManagedObject setValue:[newsData objectForKey:kLinkKey] forKey:kLinkKey];
         [newManagedObject setValue:[newsData objectForKey:kTitleKey] forKey:kTitleKey];
         [newManagedObject setValue:[newsData objectForKey:@"description"] forKey:kDescriptionKey];
-
+        [newManagedObject setValue:[newsData objectForKey:kUrlKey] forKey:kUrlKey];
  
 
     // Save the context.
@@ -99,6 +95,7 @@ NSString *kDescriptionKey = @"descriptions";
         detailsModel.newsTitle = [object valueForKey:kTitleKey];
         detailsModel.newsLink = [object valueForKey:kLinkKey];
         detailsModel.newsDescription = [object valueForKey:kDescriptionKey];
+        detailsModel.imageUrl =[object valueForKey:kUrlKey];
         [[segue destinationViewController] setDetailItem:detailsModel];
     }
 }
@@ -124,9 +121,18 @@ NSString *kDescriptionKey = @"descriptions";
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = [object valueForKey:@"title"];
-    //cell.detailTextLabel.text = [object valueForKey:kLinkKey];
     cell.imageView.image = [UIImage imageNamed:@"newsIcon"];
+    if ([ParserUtilities getImageFromUrl:[object valueForKey:kUrlKey]] != nil) {
+        [cell.imageView setImage:[ParserUtilities getImageFromUrl:[object valueForKey:kUrlKey]]];
+    }
+    
 }
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60;
+}
+
+
 
 #pragma mark - Fetched results controller
 
@@ -148,8 +154,10 @@ NSString *kDescriptionKey = @"descriptions";
     NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"title" ascending:NO];
     NSSortDescriptor *sortDescriptorLink = [[NSSortDescriptor alloc] initWithKey:@"link" ascending:NO];
      NSSortDescriptor *sortDescriptorDescription = [[NSSortDescriptor alloc] initWithKey:@"descriptions" ascending:NO];
+    
+         NSSortDescriptor *sortDescriptorUrl = [[NSSortDescriptor alloc] initWithKey:@"url" ascending:NO];
 
-    NSArray *sortDescriptors = @[sortDescriptor,sortDescriptorLink,sortDescriptorDescription];
+    NSArray *sortDescriptors = @[sortDescriptor,sortDescriptorLink,sortDescriptorDescription,sortDescriptorUrl];
     
     [fetchRequest setSortDescriptors:sortDescriptors];
     

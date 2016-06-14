@@ -19,6 +19,7 @@
 		4D88AD781D0790CE00C7BC99 /* ParserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD771D0790CE00C7BC99 /* ParserDataManager.m */; };
 		4D88AD7B1D07A1F200C7BC99 /* ParserEntryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D88AD7A1D07A1F200C7BC99 /* ParserEntryViewModel.m */; };
 		4DA2CD771D088DE600C40FBA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2CD761D088DE600C40FBA /* HomeViewController.m */; };
+		4DD5B2581D0F88FA0057D077 /* ParserUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD5B2571D0F88FA0057D077 /* ParserUtilities.m */; };
 		4DE3E3FA1D09DCB5009BFC83 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3E3F91D09DCB5009BFC83 /* Reachability.m */; };
 		4DE3E3FD1D0A2A45009BFC83 /* ParserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3E3FC1D0A2A45009BFC83 /* ParserSettings.m */; };
 		4DFD07AE1D0A42DE00BC91D4 /* ParserDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD07AD1D0A42DE00BC91D4 /* ParserDetailModel.m */; };
@@ -57,6 +58,8 @@
 		4D88AD7A1D07A1F200C7BC99 /* ParserEntryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParserEntryViewModel.m; path = Model/ViewModel/ParserEntryViewModel.m; sourceTree = "<group>"; };
 		4DA2CD751D088DE600C40FBA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4DA2CD761D088DE600C40FBA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4DD5B2561D0F88FA0057D077 /* ParserUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserUtilities.h; sourceTree = "<group>"; };
+		4DD5B2571D0F88FA0057D077 /* ParserUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserUtilities.m; sourceTree = "<group>"; };
 		4DE3E3F81D09DCB5009BFC83 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		4DE3E3F91D09DCB5009BFC83 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		4DE3E3FB1D0A2A45009BFC83 /* ParserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserSettings.h; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				4DE3E3F91D09DCB5009BFC83 /* Reachability.m */,
 				4DE3E3FB1D0A2A45009BFC83 /* ParserSettings.h */,
 				4DE3E3FC1D0A2A45009BFC83 /* ParserSettings.m */,
+				4DD5B2561D0F88FA0057D077 /* ParserUtilities.h */,
+				4DD5B2571D0F88FA0057D077 /* ParserUtilities.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D88AD781D0790CE00C7BC99 /* ParserDataManager.m in Sources */,
+				4DD5B2581D0F88FA0057D077 /* ParserUtilities.m in Sources */,
 				4D88AD561D078D7E00C7BC99 /* DetailViewController.m in Sources */,
 				4D88AD501D078D7E00C7BC99 /* TekSystemTest.xcdatamodeld in Sources */,
 				4D88AD7B1D07A1F200C7BC99 /* ParserEntryViewModel.m in Sources */,

@@ -13,5 +13,6 @@
 @property (nonatomic, strong) NSString *newsTitle;
 @property (nonatomic, strong) NSString *newsLink;
 @property (nonatomic, strong) NSString *newsDescription;
+@property (nonatomic, strong) NSString *imageUrl;
 
 @end

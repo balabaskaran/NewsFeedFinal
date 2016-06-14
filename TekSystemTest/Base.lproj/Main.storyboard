@@ -220,6 +220,7 @@
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="LZ8-BF-Uoz" id="nfa-ff-rHJ"/>
+                        <outlet property="imageView" destination="y1r-Mi-9eE" id="GwC-HS-VMZ"/>
                         <outlet property="newsDetailsTextView" destination="p4w-Ik-UcN" id="vWp-wZ-l9V"/>
                     </connections>
                 </viewController>

@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/MasterViewController.m"
-            timestampString = "487218099.620557"
+            timestampString = "487557840.948677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "244"
-            endingLineNumber = "244"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
             landmarkName = "-didUpdateData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -36,11 +36,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/MasterViewController.m"
-            timestampString = "487218099.620557"
+            timestampString = "487557840.948677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "-insertNewObject:"
             landmarkType = "5">
          </BreakpointContent>
@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/MasterViewController.m"
-            timestampString = "487218099.620557"
+            timestampString = "487557840.948677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "-controllerWillChangeContent:"
             landmarkType = "5">
          </BreakpointContent>
@@ -68,11 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/Model/ParserDataManager.m"
-            timestampString = "487136586.867856"
+            timestampString = "487554735.331206"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "-parser:parseErrorOccurred:"
             landmarkType = "5">
          </BreakpointContent>
@@ -84,11 +84,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/Model/ParserDataManager.m"
-            timestampString = "487136586.867856"
+            timestampString = "487554735.331206"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "-parser:validationErrorOccurred:"
             landmarkType = "5">
          </BreakpointContent>
@@ -100,11 +100,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/Model/ParserDataManager.m"
-            timestampString = "487136586.867856"
+            timestampString = "487554735.331206"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "-parserDidEndDocument:"
             landmarkType = "5">
          </BreakpointContent>
@@ -116,11 +116,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/MasterViewController.m"
-            timestampString = "487218099.620557"
+            timestampString = "487557840.948677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-insertNewObject:"
             landmarkType = "5">
          </BreakpointContent>
@@ -132,11 +132,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TekSystemTest/MasterViewController.m"
-            timestampString = "487218099.620557"
+            timestampString = "487557840.948677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "-insertNewObject:"
             landmarkType = "5">
          </BreakpointContent>
@@ -147,13 +147,45 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TekSystemTest/HomeViewController.m"
-            timestampString = "487209582.866048"
+            filePath = "TekSystemTest/Model/ParserDataManager.m"
+            timestampString = "487554630.714765"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-prepareForSegue:sender:"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-parser:didEndElement:namespaceURI:qualifiedName:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TekSystemTest/MasterViewController.m"
+            timestampString = "487557840.948677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "-configureCell:atIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TekSystemTest/DetailViewController.m"
+            timestampString = "487557954.367639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-configureView"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

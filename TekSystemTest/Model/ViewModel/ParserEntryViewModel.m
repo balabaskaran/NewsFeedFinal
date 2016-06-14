@@ -16,7 +16,7 @@
 {
     ParserEntryViewModel *viewModel = self;
     viewModel.screenTitle = @"News";
-    viewModel.screenHeader = @"Top Story - Google News";
+    viewModel.screenHeader = @"Top Story - Latest News";
     viewModel.buttonTitle =([ParserSettings networkCheck]) ? @"OnLine News" : @"OffLine News";
     viewModel.todayDate = [self getDate];
     

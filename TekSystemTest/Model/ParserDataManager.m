@@ -9,7 +9,8 @@
 #import "ParserDataManager.h"
 
 // feed news url
-NSString *newsFeedUrl = @"http://images.apple.com/main/rss/hotnews/hotnews.rss";
+//NSString *newsFeedUrl = @"http://images.apple.com/main/rss/hotnews/hotnews.rss";
+NSString *newsFeedUrl = @"http://rss.cnn.com/rss/cnn_topstories.rss";
 
 @implementation ParserDataManager
 
@@ -39,6 +40,12 @@ NSString *newsFeedUrl = @"http://images.apple.com/main/rss/hotnews/hotnews.rss";
         self.title   = [[NSMutableString alloc] init];
         self.link    = [[NSMutableString alloc] init];
         self.newsDescription    = [[NSMutableString alloc] init];
+        self.imageUrl = [[NSMutableString alloc] init];
+    }
+    
+    if ([elementName isEqualToString:@"media:thumbnail"])
+    {
+        self.imageUrl = attributeDict[@"url"];
     }
     
 }
@@ -51,6 +58,7 @@ NSString *newsFeedUrl = @"http://images.apple.com/main/rss/hotnews/hotnews.rss";
         [self.item setObject:self.title forKey:@"title"];
         [self.item setObject:self.link forKey:@"link"];
         [self.item setObject:self.newsDescription forKey:@"description"];
+        [self.item setObject:self.imageUrl forKey:@"url"];
         
         [self.feeds addObject:[self.item copy]];
         
@@ -60,6 +68,7 @@ NSString *newsFeedUrl = @"http://images.apple.com/main/rss/hotnews/hotnews.rss";
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
     
+    NSLog(@"elements name %@",self.element);
     if ([self.element isEqualToString:@"title"]) {
         [self.title appendString:string];
     } else if ([self.element isEqualToString:@"link"]) {
@@ -68,6 +77,9 @@ NSString *newsFeedUrl = @"http://images.apple.com/main/rss/hotnews/hotnews.rss";
     else if ([self.element isEqualToString:@"description"])
     {
         [self.newsDescription appendString:string];
+    } else if ([self.element isEqualToString:@"media:thumbnail"])
+    {
+        NSLog(@"bala image  %@",string);
     }
 
     
